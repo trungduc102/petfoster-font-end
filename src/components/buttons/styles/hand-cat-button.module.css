@@ -1,0 +1,35 @@
+.hand-cat-btn {
+    --height: 40px;
+    border: none;
+    outline: none;
+    display: 'block';
+    padding-top: calc(var(--height) * (40 / 100));
+    background: url('https://cuutrodongvatdanang.com/theme/images/paw.png') no-repeat center;
+    background-size: 0%;
+    font-weight: 700;
+    line-height: 25px;
+    color: #000;
+    transition: all 0.125s ease 0s;
+    width: var(--height);
+    height: var(--height);
+}
+
+.hand-cat-btn .hand-cat-btn-text {
+    transform: translateY(-50%);
+}
+
+.hand-cat-btn:hover {
+    background-size: 100%;
+    color: #fff;
+}
+
+.hand-cat-btn.active {
+    background-size: 100%;
+    color: #fff;
+}
+
+@media (min-width: 640px) {
+    .hand-cat-btn {
+        --height: 40px !important;
+    }
+}

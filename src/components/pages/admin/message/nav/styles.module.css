@@ -1,0 +1,5 @@
+.nav-chat-item:hover .popup-nav-chat-item {
+    color: #ccc;
+    background: #f1f1f1;
+    border-radius: 50%;
+}

@@ -1,0 +1,7 @@
+.avatar:hover .avatar-backdrop {
+    opacity: 1;
+}
+
+.avatar-backdrop {
+    opacity: 0;
+}
